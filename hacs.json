@@ -1,0 +1,11 @@
+{
+  "domain": "wled_extended",
+  "name": "WLED Extended Control",
+  "codeowners": ["@aalaei"],
+  "config_flow": true,
+  "dependencies": ["wled"],
+  "documentation": "https://github.com/aalaei/hacs-wled-extended",
+  "issue_tracker": "https://github.com/aalaei/hacs-wled-extended/issues",
+  "version": "0.1.0",
+  "requirements": ["aiohttp"]
+}

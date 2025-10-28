@@ -1,0 +1,13 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "WLED Extended Controls",
+                "description": "Click Submit to set up the global listener for all WLED devices. This will automatically add extended controls to all existing and new WLED devices."
+            }
+        },
+        "abort": {
+            "already_configured": "WLED Extended (Global) is already configured. You can only add it once."
+        }
+    }
+}
