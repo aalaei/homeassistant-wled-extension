@@ -7,8 +7,9 @@
     "codeowners": ["@aalaei"],
     "requirements": ["aiohttp"],
     "iot_class": "local_polling",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependencies": ["wled"],
+    "logo": "/static/integration/wled_extension/logo.png",
     "platforms": [
         "select",
         "switch"

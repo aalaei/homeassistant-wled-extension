@@ -6,6 +6,6 @@
   "dependencies": ["wled"],
   "documentation": "https://github.com/aalaei/homeassistant-wled-extension",
   "issue_tracker": "https://github.com/aalaei/homeassistant-wled-extension/issues",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "requirements": ["aiohttp"]
 }
