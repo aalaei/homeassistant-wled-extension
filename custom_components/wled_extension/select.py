@@ -90,7 +90,7 @@ async def async_setup_entry(
 
 
 class WledAudioSyncModeSelect(CoordinatorEntity, SelectEntity):
-    """Representation of the WLED Audio Sync Mode select entity."""
+    """Representation of the WLED Audio Reactive Sync Mode select entity."""
     
     _attr_has_entity_name = True 
 
@@ -105,7 +105,7 @@ class WledAudioSyncModeSelect(CoordinatorEntity, SelectEntity):
         super().__init__(coordinator)
         self.api = coordinator.api_client
         
-        self._attr_name = "Audio Sync Mode" 
+        self._attr_name = "Audio Reactive Sync Mode" 
         self._attr_unique_id = f"{host}_audio_sync_mode"
         self._attr_icon = "mdi:sync"
         self._attr_options = SYNC_MODE_OPTIONS
